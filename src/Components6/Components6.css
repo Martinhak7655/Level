@@ -84,4 +84,7 @@
         height: 1700px;
         /* gap: 20px; */
     }
+    .asia-column {
+        width: auto;
+    }
 }
