@@ -84,7 +84,10 @@
         height: 1700px;
         /* gap: 20px; */
     }
-    .asia-column > h3, p {
+    .asia-column > h3 {
+        width: auto;
+    }
+    .asia-column > p {
         width: auto;
     }
 }
