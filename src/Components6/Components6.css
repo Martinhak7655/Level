@@ -82,7 +82,7 @@
     }
     .asia-div {
         height: 1700px;
-        /* gap: 20px; */
+        gap: 40px;
     }
     .asia-column > h3, p {
         width: auto;
