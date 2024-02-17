@@ -19,6 +19,7 @@ const Components6 = () => {
                                 <p>Etiam aliquam arcu at mauris consectetur scelerisque. Integer elementum justo in orci facilisis ultricies. Pellentesque at velit ante. Duis scelerisque metus vel felis porttitor gravida.</p>
                             </div>
                         </div>
+                        <br/><br /><br /><br />
                         <div className='asia-flex'>
                             <div className='asia-img2'></div>
                             <div className='asia-column'>
@@ -27,6 +28,7 @@ const Components6 = () => {
                                 <h3 style={{ color: "red" }}>CONTINUE READING</h3>
                             </div>
                         </div>
+                        <br/><br /><br /><br />
                         <div className='asia-flex'>
                             <div className='asia-img3'></div>
                             <div className='asia-column'>
