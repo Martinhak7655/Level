@@ -68,7 +68,6 @@
 
 @media screen and (max-width: 942px) {
     .asia-flex {
-        width: auto;
         height: 500px;
         flex-wrap: wrap;
     }
