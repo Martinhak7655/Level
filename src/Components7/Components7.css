@@ -1,0 +1,61 @@
+.footer {
+    width: 100%;
+    height: 659px;
+    background-image: url(https://images.pexels.com/photos/618833/pexels-photo-618833.jpeg?cs=srgb&dl=pexels-sagui-andrea-618833.jpg&fm=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(40.5%)
+}
+
+.footer-flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-flex > form {
+    width: 445px;
+    height: 460px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-flex > form > input {
+    width: 381px;
+    height: 38px;
+    background-color: #F4F4F4;
+    border: none;
+    padding-left: 30px;
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+    resize: none;
+}
+
+.fot-btn {
+    width: 160px;
+    height: 38px;
+    background-color: red;
+    border: none;
+    color: white;
+}
+
+@media screen and (max-width: 1014px) {
+    .footer-flex {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .footer {
+        height: 1200px;
+    }
+}

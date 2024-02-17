@@ -1,0 +1,67 @@
+.home {
+    width: 100%;
+    height: 515px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://cff2.earth.com/uploads/2023/06/02100547/Mountain-2-960x640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(6.50%)
+}
+
+.home-div {
+    width: 970px;
+    height: 206px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+}
+
+.home-flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home-flex > input {
+    width: 289px;
+    height: 44px;
+    padding-left: 10px;
+}
+
+.home-flex > select {
+    width: 215px;
+    height: 44px;
+    padding-left: 10px;
+}
+
+.btn-home {
+    width: 215px;
+    height: 44px;
+    background-color: #EE5057;
+    color: white;
+    border: none;
+    transition: all 0.5s;
+}
+
+.btn-home:hover {
+    background-color: red;
+
+}
+
+@media screen and (max-width: 958px) {
+    .home-flex {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .home-div {
+        height: auto;
+        background: none;
+    }
+
+}
