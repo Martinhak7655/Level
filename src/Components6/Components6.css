@@ -86,7 +86,5 @@
     }
     .asia-column > h3, p {
         width: auto;
-        position: absolute;
-        left: 20px;
     }
 }
