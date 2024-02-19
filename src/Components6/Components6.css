@@ -83,6 +83,7 @@
         align-items: flex-start;
     }
     .asia-div {
+        flex-wrap: wrap;
         height: 1700px;
         gap: 40px;
     }
