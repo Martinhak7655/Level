@@ -45,7 +45,7 @@
 }
 
 .asia-column{
-    width: 452px;
+    max-width: 452px;
     display: flex;
     flex-direction: column;
 }
@@ -71,7 +71,7 @@
         width: auto;
         height: 500px;
         flex-wrap: wrap;       
-        padding-left: 50px;
+/*         padding-left: 50px; */
     }
     .asia {
         height: 2000px;
