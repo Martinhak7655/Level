@@ -68,6 +68,7 @@
 
 @media screen and (max-width: 942px) {
     .asia-flex {
+        width: auto;
         height: 500px;
         flex-wrap: wrap;
     }
@@ -84,8 +85,8 @@
         height: 1700px;
         gap: 40px;
     }
-    .asia-column > h3, p {
+/*     .asia-column {
         width: auto;
         padding-left: 30px;
-    }
+    } */
 }
